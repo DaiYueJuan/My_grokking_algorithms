@@ -11,7 +11,7 @@ int count(std::vector<T> arr) {
     return count(arr) + 1;
 }
 
-int main() {
-    std::vector<int> array = {0, 1, 2, 3, 4, 5};
-    cout << count(array) << endl;
-}
+//int main() {
+//    std::vector<int> array = {0, 1, 2, 3, 4, 5};
+//    cout << count(array) << endl;
+//}

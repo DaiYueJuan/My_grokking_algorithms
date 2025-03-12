@@ -18,10 +18,10 @@ T max(std::vector<T> arr) {
     return back > sub_max ? back : sub_max;
 }
 
-int main() {
-    std::vector<int> array = {1, 5, 10, 25, 16, 1};
-    cout << max(array) << endl;
-
-    std::vector<int> negative_array = {-1, -5, -10, -25, -16};
-    cout << max(negative_array) << endl;
-}
+//int main() {
+//    std::vector<int> array = {1, 5, 10, 25, 16, 1};
+//    cout << max(array) << endl;
+//
+//    std::vector<int> negative_array = {-1, -5, -10, -25, -16};
+//    cout << max(negative_array) << endl;
+//}

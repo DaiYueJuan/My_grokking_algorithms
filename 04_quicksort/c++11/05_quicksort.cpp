@@ -30,11 +30,11 @@ std::vector<T> quicksort(const std::vector<T>& arr) {
     return sorted_less;
 }
 
-int main() {
-    std::vector<int> arr = {69, 60, 38, 82, 99, 15, 8, 94, 30, 42, 35, 40, 63, 1, 49, 66, 93, 83, 20, 32, 87, 6, 78, 17, 2, 61, 91, 25, 7, 4, 97, 31, 23, 67, 95, 47, 55, 92, 37, 59, 73, 81, 74, 41, 39};
-    std::vector<int> sorted = quicksort(arr);
-    for (int num : sorted) {
-        cout << num << " ";
-    }
-    cout << endl;
-}
+//int main() {
+//    std::vector<int> arr = {69, 60, 38, 82, 99, 15, 8, 94, 30, 42, 35, 40, 63, 1, 49, 66, 93, 83, 20, 32, 87, 6, 78, 17, 2, 61, 91, 25, 7, 4, 97, 31, 23, 67, 95, 47, 55, 92, 37, 59, 73, 81, 74, 41, 39};
+//    std::vector<int> sorted = quicksort(arr);
+//    for (int num : sorted) {
+//        cout << num << " ";
+//    }
+//    cout << endl;
+//}
